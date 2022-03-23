@@ -15,7 +15,7 @@ window.onload = function() {
 }
 
 function search() {
-    // TODO: 搜索触发后的行为
+    // TODO: 搜索触发后的行为 fin1:find input
     
     console.log(document.getElementById('search-input').childNodes[1].value);
 }
