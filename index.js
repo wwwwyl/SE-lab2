@@ -23,7 +23,7 @@ window.onload = function() {
 }
 
 function search() {
-    // TODO: 搜索触发后的行为 fin1:find input
+    // 搜索触发后的行为 fin1:find input
     if(document.getElementById('search-input').childNodes[1].value){
         alert("\n你正在搜索："+ document.getElementById('search-input').childNodes[1].value)
         //window.location.href = "http://www.baidu.com/s?wd=" + document.getElementById('search-input').childNodes[1].value;
